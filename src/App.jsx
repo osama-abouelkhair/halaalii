@@ -40,7 +40,7 @@ function App() {
   return (
     <div className="app-container">
       <header>
-        <h1>Restaurant Listings</h1>
+        <h1>Halaalii</h1>
       </header>
       <main className="listing-container">
         {restaurants.map(restaurant => (
