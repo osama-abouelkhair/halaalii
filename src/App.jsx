@@ -1,4 +1,7 @@
 import './App.css'
+import h1 from './assets/h1.png'
+import h2 from './assets/h2.png'
+import h3 from './assets/h3.png'
 
 function App() {
   const restaurants = [
@@ -10,11 +13,7 @@ function App() {
       discountedPrice: 35,
       rating: 4.5,
       boughtCount: 120,
-      images: [
-        "https://placehold.co/600x400",
-        "https://placehold.co/300x200",
-        "https://placehold.co/300x200"
-      ]
+      images: [h1, h2, h3]
     },
     {
       id: 2,
@@ -24,11 +23,7 @@ function App() {
       discountedPrice: 60,
       rating: 4.8,
       boughtCount: 85,
-      images: [
-        "https://placehold.co/600x400",
-        "https://placehold.co/300x200",
-        "https://placehold.co/300x200"
-      ]
+      images: [h1, h2, h3]
     },
     {
       id: 3,
@@ -38,11 +33,7 @@ function App() {
       discountedPrice: 25,
       rating: 4.2,
       boughtCount: 200,
-      images: [
-        "https://placehold.co/600x400",
-        "https://placehold.co/300x200",
-        "https://placehold.co/300x200"
-      ]
+      images: [h1, h2, h3]
     }
   ]
 
